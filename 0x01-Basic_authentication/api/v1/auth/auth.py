@@ -40,3 +40,4 @@ class Auth():
     def current_user(self, request=None) -> TypeVar('User'):
         """ Flask request object """
         return None
+

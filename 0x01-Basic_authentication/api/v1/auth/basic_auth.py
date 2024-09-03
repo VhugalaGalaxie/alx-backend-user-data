@@ -68,3 +68,4 @@ class BasicAuth(Auth):
         user_credentials = self.user_object_from_credentials(
             user_email, user_password)
         return user_credentials
+
